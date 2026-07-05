@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.box{
+     background: linear-gradient(rgba(71, 195, 244, 0.5),rgb(182, 182, 182));
+     height:700px;
+     width: 340px;
+     border-radius: 20px;
+     padding: 40px 20px;
+     color:white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     border: 2px solid skyblue;
+}
+.card-container .box h1{
+    display: inline-block;
+    margin-top: 20px;
+}
+.card-container .box span{
+    font-size: small;
+}
+.card-container .box h5{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.card-container .box button{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 12px 24px;
+    width: 250px;
+    background:rgb(71, 169, 255);
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    display: block;
+    margin: 15px auto 0;
+    cursor:pointer;
+}
+.card-container .box button:hover{
+    background-color: rgb(71, 169, 255,0.8);
+}
+.img-content{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+.img-content img
+{
+    height: 20px;
+}
+.img-content img {
+    filter: brightness(0) invert(1);
+}
